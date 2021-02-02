@@ -1,49 +1,5 @@
 
-    <div class="container-fluid">
-        <div class="row tm-brand-row">
-            <div class="col-lg-4 col-10">
-                <div class="tm-brand-container">
-                    <div class="tm-brand-texts">
-                        <h2 class="text-uppercase tm-brand-name">Hands Up</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8 col-2 tm-nav-col">
-                <div class="tm-nav">
-                    <nav class="navbar navbar-expand-lg navbar-light tm-navbar">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto mr-0">
-                                <li class="nav-item active">
-                                    <div class="tm-nav-link-highlight"></div>
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <div class="tm-nav-link-highlight"></div>
-                    <a class="nav-link" href="about.html">Sobre</a>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="tm-nav-link-highlight"></div>
-                                    <a class="nav-link" href="gallery.html">Galeria</a>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="tm-nav-link-highlight"></div>
-                                    <a class="nav-link" href="contact.html">Contato</a>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="tm-nav-link-highlight"></div>
-                                    <a class="nav-link" href="contact.html">Lives</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
+    
         <div class="row tm-welcome-row">
             <div class="col-12 tm-page-cols-container">
                 <div class="tm-page-col-left tm-welcome-box tm-bg-primary">
@@ -113,27 +69,4 @@
         </div>
         <!-- row -->
 
-        <!-- Call to Action -->
-        <section class="row" id="tmCallToAction">
-            <div class="col-12 tm-page-cols-container tm-call-to-action-col">
-                <div class="tm-page-col-right">
-                    <div class="tm-call-to-action-box">
-                        <i class="fas fa-3x fa-rss-square tm-call-to-action-icon"></i>
-                        <div class="tm-call-to-action-text">
-                            <h3 class="tm-call-to-action-title">
-                                Levante as mãos e saiba mais
-                            </h3>
-                            <p class="tm-call-to-action-description">
-                                Inscreva-se e seja o primeiro a receber informações de tudo que rola nas festas Brasil afora .
-                            </p>
-                            <form action="#" method="GET" class="tm-call-to-action-form">
-                                <input type="email" name="email" placeholder="Email" class="tm-email-input" required />
-                                <button type="submit" class="btn btn-primary">
-                    Inscrever
-                  </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        

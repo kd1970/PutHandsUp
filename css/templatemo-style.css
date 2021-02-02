@@ -44,8 +44,18 @@ button {
     transition: all 0.3s ease;
 }
 
+a {
+    text-decoration: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #5f6061;
+}
+
 a:hover {
     text-decoration: none;
+    font-size: 21px;
+    color: #141d27;
+    transition: all 0.8s ease-in-out;
 }
 
 label {
@@ -326,6 +336,19 @@ ul.tm-list-plus li:before {
     justify-content: center;
 }
 
+.tm-lives-box {
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a8c0ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .tm-welcome-parallax {
     min-height: 440px;
     background: transparent;
@@ -337,6 +360,16 @@ ul.tm-list-plus li:before {
 }
 
 .tm-welcome-text {
+    max-width: 320px;
+    width: 100%;
+    padding: 15px 25px 15px 15px;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.tm-lives-text {
     max-width: 320px;
     width: 100%;
     padding: 15px 25px 15px 15px;
